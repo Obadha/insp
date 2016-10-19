@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ```bash
 python runserver.py
-
+```
 
 ### Logic. More detailed Readme, I guess.
 
