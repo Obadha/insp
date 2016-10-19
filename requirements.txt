@@ -1,0 +1,11 @@
+jinja2==2.7.3
+Flask==0.11.1
+requests==2.10.0
+gevent==1.1.2
+gunicorn==19.6.0
+simplejson==3.6.2
+sqlalchemy
+MySQL-python
+flask_sqlalchemy
+AfricastalkingGateway
+python-dotenv
