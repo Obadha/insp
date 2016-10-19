@@ -1,3 +1,6 @@
+'''
+Here we save user info when they register by sms
+'''
 from app import db
 
 class Contacts(db.Model):

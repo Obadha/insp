@@ -14,6 +14,12 @@ SQLALCHEMY_TRACK_MODIFICATIONS = False
 #particular file.
 sauti='https://dl.dropboxusercontent.com/content_link/Bizxn800qhq615EKFJhQl4FaL82RW3TTq4kn0MAmTHL98ih67OkeVE5iIYBX6ZWm/file?dl=1'
 
+#some more audio file links. They will be picked to play at random.
+audio1='#'
+audio2='#'
+audio3='#'
+audio4='#'
+
 
 # api key
 api_key  = 'KEY'
