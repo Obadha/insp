@@ -10,6 +10,9 @@ from africastalking.AfricasTalkingGateway import (AfricasTalkingGateway, Africas
 
 from models.contacts import Contacts
 
+
+username = "Loso"
+apikey = "4a4bb173c6ecf9fdf4915db6f3e6c9e9d4fa8657bbdd5b1eea7c43081c17090d"
 @app.route('/sms', methods=['POST'])
 def sms():
 	_from = request.values.get('from',None) #from means the person from whom the text is coming from.
@@ -26,6 +29,7 @@ def sms():
 
 	if not count > 0:
 		#no idea what api key is, what it does. Also, the use of the username is a mystery.
+		#username is your Africa'sTalking username and api key is obtained from website
 		gateway = AfricasTalkingGateway(os.environ.get('username'), os.environ.get('apikey')) 
 		gateway.sendMessage (_from, "Thank you for registering for this service. To get inspiration messages, call 20880. Calls charged at 10 bob per minute. Have a blessed day.")
 
