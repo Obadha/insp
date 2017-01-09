@@ -49,7 +49,9 @@ Q: Can it be possible for an audio message to be marked or favorited so the user
 The average call would not last more than two minutes.
 
 
-Update:
+Update: (9th Jan)
 Break down the process into smaller tasks.
 In Step 3, instead ofthe user selecting a category, they just hear the message playing as: "Welcome/Hello , xxxx.. You are a very beautiful human being! "
 Skip step 4. Step 5 has been mushed into step 3.
+
+Audio files, will be placed online (dropbox). Links will then be stored in a db (link, then name ) then the names will be called to play. Randomly.
