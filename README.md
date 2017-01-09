@@ -47,3 +47,9 @@ Q: Can it be possible for an audio message to be marked or favorited so the user
 7. If no user interaction within 10 seconds, call auto-terminates with message "thanks for calling, have a fruitful day Mr. x"
 
 The average call would not last more than two minutes.
+
+
+Update:
+Break down the process into smaller tasks.
+In Step 3, instead ofthe user selecting a category, they just hear the message playing as: "Welcome/Hello , xxxx.. You are a very beautiful human being! "
+Skip step 4. Step 5 has been mushed into step 3.
