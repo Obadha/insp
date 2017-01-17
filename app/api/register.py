@@ -13,6 +13,7 @@ from models.contacts import Contacts
 
 username = "Loso"
 apikey = "4a4bb173c6ecf9fdf4915db6f3e6c9e9d4fa8657bbdd5b1eea7c43081c17090d"
+
 @app.route('/sms', methods=['POST'])
 def sms():
 	_from = request.values.get('from',None) #from means the person from whom the text is coming from.
